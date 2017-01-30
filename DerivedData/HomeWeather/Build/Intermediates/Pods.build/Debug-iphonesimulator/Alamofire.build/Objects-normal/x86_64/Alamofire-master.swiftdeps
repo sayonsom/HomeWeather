@@ -1,0 +1,21 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "393a9869e087ea356576b15ae4bb692e"
+build_time: [539124565, 66769000]
+inputs:
+  "/Users/sayonsomchanda/Documents/Apps/HomeWeather/Pods/Alamofire/Source/AFError.swift": [537910961, 0]
+  "/Users/sayonsomchanda/Documents/Apps/HomeWeather/Pods/Alamofire/Source/Alamofire.swift": [537910961, 0]
+  "/Users/sayonsomchanda/Documents/Apps/HomeWeather/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [537910961, 0]
+  "/Users/sayonsomchanda/Documents/Apps/HomeWeather/Pods/Alamofire/Source/MultipartFormData.swift": [537910961, 0]
+  "/Users/sayonsomchanda/Documents/Apps/HomeWeather/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [537910961, 0]
+  "/Users/sayonsomchanda/Documents/Apps/HomeWeather/Pods/Alamofire/Source/Notifications.swift": [537910961, 0]
+  "/Users/sayonsomchanda/Documents/Apps/HomeWeather/Pods/Alamofire/Source/ParameterEncoding.swift": [537910961, 0]
+  "/Users/sayonsomchanda/Documents/Apps/HomeWeather/Pods/Alamofire/Source/Request.swift": [537910961, 0]
+  "/Users/sayonsomchanda/Documents/Apps/HomeWeather/Pods/Alamofire/Source/Response.swift": [537910961, 0]
+  "/Users/sayonsomchanda/Documents/Apps/HomeWeather/Pods/Alamofire/Source/ResponseSerialization.swift": [537910961, 0]
+  "/Users/sayonsomchanda/Documents/Apps/HomeWeather/Pods/Alamofire/Source/Result.swift": [537910961, 0]
+  "/Users/sayonsomchanda/Documents/Apps/HomeWeather/Pods/Alamofire/Source/ServerTrustPolicy.swift": [537910961, 0]
+  "/Users/sayonsomchanda/Documents/Apps/HomeWeather/Pods/Alamofire/Source/SessionDelegate.swift": [537910961, 0]
+  "/Users/sayonsomchanda/Documents/Apps/HomeWeather/Pods/Alamofire/Source/SessionManager.swift": [537910961, 0]
+  "/Users/sayonsomchanda/Documents/Apps/HomeWeather/Pods/Alamofire/Source/TaskDelegate.swift": [537910961, 0]
+  "/Users/sayonsomchanda/Documents/Apps/HomeWeather/Pods/Alamofire/Source/Timeline.swift": [537910961, 0]
+  "/Users/sayonsomchanda/Documents/Apps/HomeWeather/Pods/Alamofire/Source/Validation.swift": [537910961, 0]

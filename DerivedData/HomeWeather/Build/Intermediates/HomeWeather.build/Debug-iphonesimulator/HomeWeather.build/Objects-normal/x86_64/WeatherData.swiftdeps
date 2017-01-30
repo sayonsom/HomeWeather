@@ -1,0 +1,679 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WeatherData"
+provides-nominal:
+- "C11HomeWeather11WeatherData"
+provides-member:
+- ["C11HomeWeather11WeatherData", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "WeatherData"
+- "String"
+- !private "/"
+- "StringLiteralType"
+- "Double"
+- "URL"
+- !private "Date"
+- !private "DateFormatter"
+- !private "*"
+- !private "Alamofire"
+- "Dictionary"
+- "AnyObject"
+- "TernaryPrecedence"
+- !private "UnicodeScalarType"
+- !private "JSON"
+- "AssignmentPrecedence"
+- !private "CastingPrecedence"
+- !private "-"
+- !private "??"
+- !private "!="
+depends-member:
+- !private ["Ps16AbsoluteValuable", "Stride"]
+- !private ["Ps9AnyObject", "Alamofire"]
+- !private ["Ps9AnyObject", "Date"]
+- !private ["Ps9AnyObject", "DateFormatter"]
+- !private ["Ps9AnyObject", "JSON"]
+- !private ["Ps9AnyObject", "String"]
+- ["Ps9AnyObject", "URL"]
+- !private ["Ps9AnyObject", "_dateP"]
+- !private ["Ps9AnyObject", "_locationP"]
+- !private ["Ps9AnyObject", "_ppt"]
+- !private ["Ps9AnyObject", "_tempP"]
+- !private ["Ps9AnyObject", "_weatherP"]
+- !private ["Ps9AnyObject", "_weatherSummary"]
+- !private ["Ps9AnyObject", "_windSpeed"]
+- !private ["Ps9AnyObject", "dateStyle"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "responseJSON"]
+- !private ["Ps9AnyObject", "string"]
+- !private ["Ps9AnyObject", "timeStyle"]
+- !private ["Ps9AnyObject", "urlPullman"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "deinit"]
+- !private ["Ps19BinaryFloatingPoint", "Stride"]
+- !private ["Ps17BitwiseOperations", "IntegerLiteralType"]
+- !private ["Ps17BitwiseOperations", "Stride"]
+- !private ["Ps17BitwiseOperations", "_DisabledRangeIndex"]
+- !private ["Ps17BitwiseOperations", "_DisallowMixedSignArithmetic"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "Stride"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["Ps7CVarArg", "IntegerLiteralType"]
+- !private ["Ps7CVarArg", "Stride"]
+- !private ["Ps7CVarArg", "_DisabledRangeIndex"]
+- !private ["Ps7CVarArg", "_DisallowMixedSignArithmetic"]
+- !private ["Ps7CVarArg", "dateStyle"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "string"]
+- !private ["Ps7CVarArg", "timeStyle"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Vs11ClosedRange", "deinit"]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "double"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "string"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "Index"]
+- !private ["Ps10Comparable", "IndexDistance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "Stride"]
+- !private ["Ps10Comparable", "SubSequence"]
+- !private ["Ps10Comparable", "_DisabledRangeIndex"]
+- !private ["Ps10Comparable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps10Comparable", "_Element"]
+- !private ["Ps10Comparable", "double"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "string"]
+- !private ["Ps10Comparable", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
+- !private ["Ps28CustomDebugStringConvertible", "Stride"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "dateStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "double"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "responseJSON"]
+- !private ["Ps28CustomDebugStringConvertible", "result"]
+- !private ["Ps28CustomDebugStringConvertible", "string"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "timeStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "value"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "IntegerLiteralType"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_DisabledRangeIndex"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "IntegerLiteralType"]
+- !private ["Ps17CustomReflectable", "Stride"]
+- !private ["Ps17CustomReflectable", "_DisabledRangeIndex"]
+- !private ["Ps17CustomReflectable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IndexDistance"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "_DisabledRangeIndex"]
+- !private ["Ps23CustomStringConvertible", "_DisallowMixedSignArithmetic"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "dateStyle"]
+- !private ["Ps23CustomStringConvertible", "double"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "responseJSON"]
+- !private ["Ps23CustomStringConvertible", "result"]
+- !private ["Ps23CustomStringConvertible", "string"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "timeStyle"]
+- !private ["Ps23CustomStringConvertible", "value"]
+- ["C9Alamofire11DataRequest", "deinit"]
+- !private ["C9Alamofire11DataRequest", "responseJSON"]
+- !private ["V9Alamofire12DataResponse", "deinit"]
+- !private ["V9Alamofire12DataResponse", "result"]
+- ["V10Foundation4Date", "deinit"]
+- !private ["V10Foundation4Date", "init"]
+- !private ["CSo13DateFormatter", "dateStyle"]
+- ["CSo13DateFormatter", "deinit"]
+- !private ["CSo13DateFormatter", "init"]
+- !private ["CSo13DateFormatter", "string"]
+- !private ["CSo13DateFormatter", "timeStyle"]
+- !private ["VSC7Decimal", "Stride"]
+- !private ["VSC7Decimal", "deinit"]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Sd", "Stride"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "Index"]
+- !private ["Ps9Equatable", "IndexDistance"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "Stride"]
+- !private ["Ps9Equatable", "SubSequence"]
+- !private ["Ps9Equatable", "_DisabledRangeIndex"]
+- !private ["Ps9Equatable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps9Equatable", "_Element"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "dateStyle"]
+- !private ["Ps9Equatable", "double"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "long"]
+- !private ["Ps9Equatable", "none"]
+- !private ["Ps9Equatable", "string"]
+- !private ["Ps9Equatable", "subscript"]
+- !private ["Ps9Equatable", "timeStyle"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Index"]
+- !private ["Ps25ExpressibleByArrayLiteral", "IndexDistance"]
+- !private ["Ps25ExpressibleByArrayLiteral", "SubSequence"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "double"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "string"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "Index"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "IndexDistance"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "SubSequence"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_Element"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "double"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "string"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "subscript"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Index"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "IndexDistance"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "SubSequence"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "_Element"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "double"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "string"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "Index"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "IndexDistance"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "SubSequence"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "_Element"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "double"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "string"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "subscript"]
+- !private ["Ps25ExpressibleByFloatLiteral", "Index"]
+- !private ["Ps25ExpressibleByFloatLiteral", "IndexDistance"]
+- !private ["Ps25ExpressibleByFloatLiteral", "Stride"]
+- !private ["Ps25ExpressibleByFloatLiteral", "SubSequence"]
+- !private ["Ps25ExpressibleByFloatLiteral", "_Element"]
+- !private ["Ps25ExpressibleByFloatLiteral", "double"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "string"]
+- !private ["Ps25ExpressibleByFloatLiteral", "subscript"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Index"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "IndexDistance"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "IntegerLiteralType"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "SubSequence"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "_DisabledRangeIndex"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "_DisallowMixedSignArithmetic"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "_Element"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "double"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "string"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "subscript"]
+- !private ["Ps23ExpressibleByNilLiteral", "Index"]
+- !private ["Ps23ExpressibleByNilLiteral", "IndexDistance"]
+- !private ["Ps23ExpressibleByNilLiteral", "SubSequence"]
+- !private ["Ps23ExpressibleByNilLiteral", "_Element"]
+- !private ["Ps23ExpressibleByNilLiteral", "double"]
+- !private ["Ps23ExpressibleByNilLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "string"]
+- !private ["Ps23ExpressibleByNilLiteral", "subscript"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "Index"]
+- !private ["Ps26ExpressibleByStringLiteral", "IndexDistance"]
+- !private ["Ps26ExpressibleByStringLiteral", "SubSequence"]
+- !private ["Ps26ExpressibleByStringLiteral", "_Element"]
+- !private ["Ps26ExpressibleByStringLiteral", "double"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "string"]
+- !private ["Ps26ExpressibleByStringLiteral", "subscript"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "Index"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "IndexDistance"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "SubSequence"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "_Element"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "double"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "string"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "subscript"]
+- !private ["Sf", "Stride"]
+- !private ["Sf", "deinit"]
+- !private ["Vs7Float80", "Stride"]
+- !private ["Vs7Float80", "deinit"]
+- !private ["Ps13FloatingPoint", "Stride"]
+- !private ["CSo9Formatter", "dateStyle"]
+- !private ["CSo9Formatter", "init"]
+- !private ["CSo9Formatter", "string"]
+- !private ["CSo9Formatter", "timeStyle"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "Stride"]
+- !private ["Ps8Hashable", "_DisabledRangeIndex"]
+- !private ["Ps8Hashable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "dateStyle"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "long"]
+- !private ["Ps8Hashable", "none"]
+- !private ["Ps8Hashable", "string"]
+- !private ["Ps8Hashable", "timeStyle"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "double"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "string"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "double"]
+- !private ["Ps13IndexableBase", "init"]
+- !private ["Ps13IndexableBase", "string"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "Stride"]
+- !private ["Si", "_DisabledRangeIndex"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "Stride"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "Stride"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "Stride"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "Stride"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps7Integer", "IntegerLiteralType"]
+- !private ["Ps7Integer", "Stride"]
+- !private ["Ps7Integer", "_DisabledRangeIndex"]
+- !private ["Ps7Integer", "_DisallowMixedSignArithmetic"]
+- !private ["Ps17IntegerArithmetic", "IntegerLiteralType"]
+- !private ["Ps17IntegerArithmetic", "Stride"]
+- !private ["Ps17IntegerArithmetic", "_DisabledRangeIndex"]
+- !private ["Ps17IntegerArithmetic", "_DisallowMixedSignArithmetic"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["V10SwiftyJSON4JSON", "Index"]
+- !private ["V10SwiftyJSON4JSON", "IndexDistance"]
+- !private ["V10SwiftyJSON4JSON", "SubSequence"]
+- !private ["V10SwiftyJSON4JSON", "_Element"]
+- !private ["V10SwiftyJSON4JSON", "deinit"]
+- !private ["V10SwiftyJSON4JSON", "double"]
+- !private ["V10SwiftyJSON4JSON", "init"]
+- !private ["V10SwiftyJSON4JSON", "string"]
+- !private ["V10SwiftyJSON4JSON", "subscript"]
+- !private ["O10SwiftyJSON9JSONIndex", "Stride"]
+- !private ["O10SwiftyJSON9JSONIndex", "deinit"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "IntegerLiteralType"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "Stride"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "_DisabledRangeIndex"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "deinit"]
+- ["P10SwiftyJSON17JSONSubscriptType", "init"]
+- !private ["Ps25LosslessStringConvertible", "Stride"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "IntegerLiteralType"]
+- !private ["Ps10MirrorPath", "Stride"]
+- !private ["Ps10MirrorPath", "_DisabledRangeIndex"]
+- ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "dateStyle"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "string"]
+- !private ["PSo8NSCoding", "timeStyle"]
+- !private ["PSo9NSCopying", "dateStyle"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "string"]
+- !private ["PSo9NSCopying", "timeStyle"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "dateStyle"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "string"]
+- !private ["CSo8NSObject", "timeStyle"]
+- !private ["PSo16NSObjectProtocol", "dateStyle"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "string"]
+- !private ["PSo16NSObjectProtocol", "timeStyle"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- !private ["Vs5Range", "deinit"]
+- !private ["Ps16RawRepresentable", "Index"]
+- !private ["Ps16RawRepresentable", "IndexDistance"]
+- !private ["Ps16RawRepresentable", "SubSequence"]
+- !private ["Ps16RawRepresentable", "_Element"]
+- !private ["Ps16RawRepresentable", "double"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["Ps16RawRepresentable", "long"]
+- !private ["Ps16RawRepresentable", "none"]
+- !private ["Ps16RawRepresentable", "string"]
+- !private ["Ps16RawRepresentable", "subscript"]
+- ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["C9Alamofire7Request", "responseJSON"]
+- !private ["P9Alamofire8Response", "result"]
+- !private ["O9Alamofire6Result", "deinit"]
+- !private ["O9Alamofire6Result", "value"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "double"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "string"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps13SignedInteger", "IntegerLiteralType"]
+- !private ["Ps13SignedInteger", "Stride"]
+- !private ["Ps13SignedInteger", "_DisabledRangeIndex"]
+- !private ["Ps12SignedNumber", "IntegerLiteralType"]
+- !private ["Ps12SignedNumber", "Stride"]
+- !private ["Ps12SignedNumber", "_DisabledRangeIndex"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Vs5Slice", "double"]
+- !private ["Vs5Slice", "string"]
+- !private ["Vs5Slice", "subscript"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "Stride"]
+- !private ["Ps10Strideable", "_DisabledRangeIndex"]
+- !private ["Ps10Strideable", "_DisallowMixedSignArithmetic"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["OCSo13DateFormatter5Style", "deinit"]
+- !private ["OCSo13DateFormatter5Style", "long"]
+- !private ["OCSo13DateFormatter5Style", "none"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["Su", "Stride"]
+- !private ["Su", "_DisallowMixedSignArithmetic"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "Stride"]
+- !private ["Vs6UInt16", "_DisallowMixedSignArithmetic"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "Stride"]
+- !private ["Vs6UInt32", "_DisallowMixedSignArithmetic"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "Stride"]
+- !private ["Vs6UInt64", "_DisallowMixedSignArithmetic"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "Stride"]
+- !private ["Vs5UInt8", "_DisallowMixedSignArithmetic"]
+- !private ["Vs5UInt8", "deinit"]
+- ["V10Foundation3URL", "deinit"]
+- ["V10Foundation3URL", "init"]
+- ["P9Alamofire14URLConvertible", "init"]
+- !private ["Sc", "deinit"]
+- !private ["Ps15UnsignedInteger", "Stride"]
+- !private ["Ps15UnsignedInteger", "_DisallowMixedSignArithmetic"]
+- !private ["C11HomeWeather11WeatherData", "Alamofire"]
+- ["C11HomeWeather11WeatherData", "AnyObject"]
+- !private ["C11HomeWeather11WeatherData", "Date"]
+- !private ["C11HomeWeather11WeatherData", "DateFormatter"]
+- ["C11HomeWeather11WeatherData", "Dictionary"]
+- ["C11HomeWeather11WeatherData", "Double"]
+- !private ["C11HomeWeather11WeatherData", "JSON"]
+- ["C11HomeWeather11WeatherData", "JSONStandardP"]
+- ["C11HomeWeather11WeatherData", "String"]
+- ["C11HomeWeather11WeatherData", "URL"]
+- !private ["C11HomeWeather11WeatherData", "_dateP"]
+- !private ["C11HomeWeather11WeatherData", "_locationP"]
+- !private ["C11HomeWeather11WeatherData", "_ppt"]
+- !private ["C11HomeWeather11WeatherData", "_tempP"]
+- !private ["C11HomeWeather11WeatherData", "_weatherP"]
+- !private ["C11HomeWeather11WeatherData", "_weatherSummary"]
+- !private ["C11HomeWeather11WeatherData", "_windSpeed"]
+- ["C11HomeWeather11WeatherData", "dateP"]
+- ["C11HomeWeather11WeatherData", "deinit"]
+- ["C11HomeWeather11WeatherData", "downloadData"]
+- ["C11HomeWeather11WeatherData", "init"]
+- ["C11HomeWeather11WeatherData", "locationP"]
+- ["C11HomeWeather11WeatherData", "ppt"]
+- ["C11HomeWeather11WeatherData", "tempP"]
+- ["C11HomeWeather11WeatherData", "urlPullman"]
+- ["C11HomeWeather11WeatherData", "weatherP"]
+- ["C11HomeWeather11WeatherData", "weatherSummary"]
+- ["C11HomeWeather11WeatherData", "windSpeed"]
+- !private ["Ps15_CVarArgAligned", "Stride"]
+- !private ["Ps15_CVarArgAligned", "_DisallowMixedSignArithmetic"]
+- !private ["Ps22_CVarArgPassedAsDouble", "Stride"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "Stride"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "_DisallowMixedSignArithmetic"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "Stride"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "IntegerLiteralType"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Stride"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "_DisabledRangeIndex"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "_DisallowMixedSignArithmetic"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps34_ExpressibleByFileReferenceLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "IntegerLiteralType"]
+- !private ["Ps9_Hashable", "Stride"]
+- !private ["Ps9_Hashable", "_DisabledRangeIndex"]
+- !private ["Ps9_Hashable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "dateStyle"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "long"]
+- !private ["Ps9_Hashable", "none"]
+- !private ["Ps9_Hashable", "string"]
+- !private ["Ps9_Hashable", "timeStyle"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "Stride"]
+- !private ["Ps14_Incrementable", "_DisabledRangeIndex"]
+- !private ["Ps14_Incrementable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps8_Integer", "IntegerLiteralType"]
+- !private ["Ps8_Integer", "Stride"]
+- !private ["Ps8_Integer", "_DisabledRangeIndex"]
+- !private ["Ps8_Integer", "_DisallowMixedSignArithmetic"]
+- !private ["Ps18_IntegerArithmetic", "IntegerLiteralType"]
+- !private ["Ps18_IntegerArithmetic", "Stride"]
+- !private ["Ps18_IntegerArithmetic", "_DisabledRangeIndex"]
+- !private ["Ps18_IntegerArithmetic", "_DisallowMixedSignArithmetic"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "_DisabledRangeIndex"]
+- !private ["Ps21_ObjectiveCBridgeable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps14_SignedInteger", "IntegerLiteralType"]
+- !private ["Ps14_SignedInteger", "Stride"]
+- !private ["Ps14_SignedInteger", "_DisabledRangeIndex"]
+- !private ["Ps11_Strideable", "IntegerLiteralType"]
+- !private ["Ps11_Strideable", "Stride"]
+- !private ["Ps11_Strideable", "_DisabledRangeIndex"]
+- !private ["Ps11_Strideable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps14_StringElement", "Stride"]
+- !private ["Ps14_StringElement", "_DisallowMixedSignArithmetic"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- !private "V12CoreGraphics7CGFloat"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Vs11ClosedRange"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "C9Alamofire11DataRequest"
+- !private "V9Alamofire12DataResponse"
+- "V10Foundation4Date"
+- "CSo13DateFormatter"
+- !private "VSC7Decimal"
+- !private "Vs10Dictionary"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- !private "Vs7Float80"
+- !private "Ps13FloatingPoint"
+- !private "CSo9Formatter"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps16IteratorProtocol"
+- !private "V10SwiftyJSON4JSON"
+- !private "O10SwiftyJSON9JSONIndex"
+- "P10SwiftyJSON17JSONSubscriptType"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Sq"
+- !private "Vs5Range"
+- !private "Ps16RawRepresentable"
+- "P10Foundation20ReferenceConvertible"
+- !private "C9Alamofire7Request"
+- !private "P9Alamofire8Response"
+- !private "O9Alamofire6Result"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs5Slice"
+- !private "Ps10Strideable"
+- "SS"
+- "OCSo13DateFormatter5Style"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- "V10Foundation3URL"
+- "P9Alamofire14URLConvertible"
+- !private "Sc"
+- !private "Ps15UnsignedInteger"
+- "C11HomeWeather11WeatherData"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps34_ExpressibleByFileReferenceLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+- !private "Ps14_StringElement"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/HomeWeather/HomeWeather-Bridging-Header.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PubNub.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PNObjectEventListener.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PNErrorCodes.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/NSURLSessionConfiguration+PNConfiguration.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PNTimeResult.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PNSubscribeStatus.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PNSubscriberResults.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PNPublishStatus.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PNPresenceWhereNowResult.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PNPresenceChannelHereNowResult.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PNPresenceGlobalHereNowResult.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PNPresenceChannelGroupHereNowResult.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PNHistoryResult.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PNClientStateUpdateStatus.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PNChannelGroupsResult.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PNChannelGroupClientStateResult.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PNChannelGroupChannelsResult.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PNChannelClientStateResult.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PNAPNSEnabledChannelsResult.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PNServiceData.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PNResult.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PNStatus.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PNErrorStatus.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PNAcknowledgmentStatus.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PNConfiguration.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PNClientInformation.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PNAES.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PubNub+Time.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PubNub+Subscribe.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PubNub+State.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PubNub+Publish.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PubNub+Presence.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PubNub+History.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PubNub+ChannelGroup.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PNLLogger.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PNStructures.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PubNub+Core.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PubNub+APNS.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Headers/PubNub-umbrella.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/PubNub/PubNub.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "69a3fe54a8150b135e587fa3f502c53d"

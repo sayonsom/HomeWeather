@@ -1,0 +1,1066 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C11HomeWeather14ViewController"
+provides-member:
+- ["C11HomeWeather14ViewController", ""]
+provides-dynamic-lookup:
+- "updateLabel"
+- "viewDidLoad"
+- "pullmanOutside"
+- "humidity"
+- "client"
+- "client"
+- "pullmanForecast"
+- "configuration"
+- "livingRoomTemp"
+- "pullmanFeelsLike"
+depends-top-level:
+- "UIViewController"
+- "WeatherData"
+- "PubNub"
+- "PNMessageResult"
+- "StringLiteralType"
+- "UILabel"
+- "ViewController"
+- !private "JSON"
+- "Void"
+- !private "BooleanLiteralType"
+- !private "??"
+- !private "String"
+- "PNObjectEventListener"
+- !private "+"
+- !private "Timer"
+- "AssignmentPrecedence"
+- !private "=="
+- !private "print"
+- !private "Array"
+- !private "!="
+- "PNConfiguration"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["Ps9AnyObject", "JSON"]
+- ["Ps9AnyObject", "PNConfiguration"]
+- !private ["Ps9AnyObject", "PubNub"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "Timer"]
+- ["Ps9AnyObject", "WeatherData"]
+- !private ["Ps9AnyObject", "add"]
+- !private ["Ps9AnyObject", "channel"]
+- ["Ps9AnyObject", "client"]
+- ["Ps9AnyObject", "configuration"]
+- !private ["Ps9AnyObject", "data"]
+- !private ["Ps9AnyObject", "downloadData"]
+- !private ["Ps9AnyObject", "end"]
+- !private ["Ps9AnyObject", "history"]
+- ["Ps9AnyObject", "humidity"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "livingRoomTemp"]
+- !private ["Ps9AnyObject", "message"]
+- !private ["Ps9AnyObject", "messages"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", "pullmanFeelsLike"]
+- ["Ps9AnyObject", "pullmanForecast"]
+- ["Ps9AnyObject", "pullmanOutside"]
+- !private ["Ps9AnyObject", "scheduledTimer"]
+- !private ["Ps9AnyObject", "subscribe"]
+- !private ["Ps9AnyObject", "subscription"]
+- !private ["Ps9AnyObject", "tempP"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "timetoken"]
+- ["Ps9AnyObject", "updateLabel"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", "weather"]
+- !private ["Ps9AnyObject", "weatherP"]
+- !private ["Ps9AnyObject", "weatherSummary"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- ["Sa", "deinit"]
+- !private ["Sa", "last"]
+- !private ["Ps23BidirectionalCollection", "Element"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "last"]
+- !private ["Ps22BidirectionalIndexable", "Element"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "last"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "text"]
+- !private ["Ps7CVarArg", "Element"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "JSON"]
+- ["Ps7CVarArg", "PNConfiguration"]
+- !private ["Ps7CVarArg", "PubNub"]
+- !private ["Ps7CVarArg", "String"]
+- !private ["Ps7CVarArg", "Timer"]
+- ["Ps7CVarArg", "WeatherData"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "add"]
+- !private ["Ps7CVarArg", "channel"]
+- ["Ps7CVarArg", "client"]
+- ["Ps7CVarArg", "configuration"]
+- !private ["Ps7CVarArg", "data"]
+- !private ["Ps7CVarArg", "end"]
+- !private ["Ps7CVarArg", "history"]
+- ["Ps7CVarArg", "humidity"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "last"]
+- ["Ps7CVarArg", "livingRoomTemp"]
+- !private ["Ps7CVarArg", "message"]
+- !private ["Ps7CVarArg", "messages"]
+- !private ["Ps7CVarArg", "print"]
+- ["Ps7CVarArg", "pullmanFeelsLike"]
+- ["Ps7CVarArg", "pullmanForecast"]
+- ["Ps7CVarArg", "pullmanOutside"]
+- !private ["Ps7CVarArg", "scheduledTimer"]
+- !private ["Ps7CVarArg", "subscribe"]
+- !private ["Ps7CVarArg", "subscription"]
+- !private ["Ps7CVarArg", "text"]
+- !private ["Ps7CVarArg", "timetoken"]
+- ["Ps7CVarArg", "updateLabel"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", "weather"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Collection", "Element"]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "float"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "last"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "Index"]
+- !private ["Ps10Comparable", "IndexDistance"]
+- !private ["Ps10Comparable", "SubSequence"]
+- !private ["Ps10Comparable", "_Element"]
+- !private ["Ps10Comparable", "float"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "JSON"]
+- ["Ps28CustomDebugStringConvertible", "PNConfiguration"]
+- !private ["Ps28CustomDebugStringConvertible", "PubNub"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "Timer"]
+- ["Ps28CustomDebugStringConvertible", "WeatherData"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "add"]
+- !private ["Ps28CustomDebugStringConvertible", "channel"]
+- ["Ps28CustomDebugStringConvertible", "client"]
+- ["Ps28CustomDebugStringConvertible", "configuration"]
+- !private ["Ps28CustomDebugStringConvertible", "data"]
+- !private ["Ps28CustomDebugStringConvertible", "end"]
+- !private ["Ps28CustomDebugStringConvertible", "float"]
+- !private ["Ps28CustomDebugStringConvertible", "history"]
+- ["Ps28CustomDebugStringConvertible", "humidity"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "last"]
+- ["Ps28CustomDebugStringConvertible", "livingRoomTemp"]
+- !private ["Ps28CustomDebugStringConvertible", "message"]
+- !private ["Ps28CustomDebugStringConvertible", "messages"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- ["Ps28CustomDebugStringConvertible", "pullmanFeelsLike"]
+- ["Ps28CustomDebugStringConvertible", "pullmanForecast"]
+- ["Ps28CustomDebugStringConvertible", "pullmanOutside"]
+- !private ["Ps28CustomDebugStringConvertible", "scheduledTimer"]
+- !private ["Ps28CustomDebugStringConvertible", "subscribe"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "subscription"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "timetoken"]
+- ["Ps28CustomDebugStringConvertible", "updateLabel"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", "weather"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "last"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IndexDistance"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "JSON"]
+- ["Ps23CustomStringConvertible", "PNConfiguration"]
+- !private ["Ps23CustomStringConvertible", "PubNub"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "Timer"]
+- ["Ps23CustomStringConvertible", "WeatherData"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "add"]
+- !private ["Ps23CustomStringConvertible", "channel"]
+- ["Ps23CustomStringConvertible", "client"]
+- ["Ps23CustomStringConvertible", "configuration"]
+- !private ["Ps23CustomStringConvertible", "data"]
+- !private ["Ps23CustomStringConvertible", "end"]
+- !private ["Ps23CustomStringConvertible", "float"]
+- !private ["Ps23CustomStringConvertible", "history"]
+- ["Ps23CustomStringConvertible", "humidity"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "last"]
+- ["Ps23CustomStringConvertible", "livingRoomTemp"]
+- !private ["Ps23CustomStringConvertible", "message"]
+- !private ["Ps23CustomStringConvertible", "messages"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- ["Ps23CustomStringConvertible", "pullmanFeelsLike"]
+- ["Ps23CustomStringConvertible", "pullmanForecast"]
+- ["Ps23CustomStringConvertible", "pullmanOutside"]
+- !private ["Ps23CustomStringConvertible", "scheduledTimer"]
+- !private ["Ps23CustomStringConvertible", "subscribe"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "subscription"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "timetoken"]
+- ["Ps23CustomStringConvertible", "updateLabel"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", "weather"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Sd", "deinit"]
+- !private ["Ps9Equatable", "Index"]
+- !private ["Ps9Equatable", "IndexDistance"]
+- !private ["Ps9Equatable", "JSON"]
+- ["Ps9Equatable", "PNConfiguration"]
+- !private ["Ps9Equatable", "PubNub"]
+- !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "SubSequence"]
+- !private ["Ps9Equatable", "Timer"]
+- ["Ps9Equatable", "WeatherData"]
+- !private ["Ps9Equatable", "_Element"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "add"]
+- !private ["Ps9Equatable", "channel"]
+- ["Ps9Equatable", "client"]
+- ["Ps9Equatable", "configuration"]
+- !private ["Ps9Equatable", "data"]
+- !private ["Ps9Equatable", "end"]
+- !private ["Ps9Equatable", "float"]
+- !private ["Ps9Equatable", "history"]
+- ["Ps9Equatable", "humidity"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "livingRoomTemp"]
+- !private ["Ps9Equatable", "message"]
+- !private ["Ps9Equatable", "messages"]
+- !private ["Ps9Equatable", "print"]
+- ["Ps9Equatable", "pullmanFeelsLike"]
+- ["Ps9Equatable", "pullmanForecast"]
+- ["Ps9Equatable", "pullmanOutside"]
+- !private ["Ps9Equatable", "scheduledTimer"]
+- !private ["Ps9Equatable", "subscribe"]
+- !private ["Ps9Equatable", "subscript"]
+- !private ["Ps9Equatable", "subscription"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "timetoken"]
+- ["Ps9Equatable", "updateLabel"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", "weather"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Index"]
+- !private ["Ps25ExpressibleByArrayLiteral", "IndexDistance"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "SubSequence"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "float"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "last"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "Index"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "IndexDistance"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "SubSequence"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_Element"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "float"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "subscript"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Index"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "IndexDistance"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "SubSequence"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "_Element"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "float"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "Index"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "IndexDistance"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "SubSequence"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "_Element"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "float"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "subscript"]
+- !private ["Ps25ExpressibleByFloatLiteral", "Index"]
+- !private ["Ps25ExpressibleByFloatLiteral", "IndexDistance"]
+- !private ["Ps25ExpressibleByFloatLiteral", "SubSequence"]
+- !private ["Ps25ExpressibleByFloatLiteral", "_Element"]
+- !private ["Ps25ExpressibleByFloatLiteral", "float"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "subscript"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Index"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "IndexDistance"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "SubSequence"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "_Element"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "float"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "subscript"]
+- !private ["Ps23ExpressibleByNilLiteral", "Index"]
+- !private ["Ps23ExpressibleByNilLiteral", "IndexDistance"]
+- !private ["Ps23ExpressibleByNilLiteral", "SubSequence"]
+- !private ["Ps23ExpressibleByNilLiteral", "_Element"]
+- !private ["Ps23ExpressibleByNilLiteral", "float"]
+- !private ["Ps23ExpressibleByNilLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "subscript"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "Index"]
+- !private ["Ps26ExpressibleByStringLiteral", "IndexDistance"]
+- !private ["Ps26ExpressibleByStringLiteral", "SubSequence"]
+- !private ["Ps26ExpressibleByStringLiteral", "_Element"]
+- !private ["Ps26ExpressibleByStringLiteral", "float"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "subscript"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "Index"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "IndexDistance"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "SubSequence"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "_Element"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "float"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "subscript"]
+- ["Sf", "deinit"]
+- !private ["Ps8Hashable", "JSON"]
+- ["Ps8Hashable", "PNConfiguration"]
+- !private ["Ps8Hashable", "PubNub"]
+- !private ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "Timer"]
+- ["Ps8Hashable", "WeatherData"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "add"]
+- !private ["Ps8Hashable", "channel"]
+- ["Ps8Hashable", "client"]
+- ["Ps8Hashable", "configuration"]
+- !private ["Ps8Hashable", "data"]
+- !private ["Ps8Hashable", "end"]
+- !private ["Ps8Hashable", "history"]
+- ["Ps8Hashable", "humidity"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "livingRoomTemp"]
+- !private ["Ps8Hashable", "message"]
+- !private ["Ps8Hashable", "messages"]
+- !private ["Ps8Hashable", "print"]
+- ["Ps8Hashable", "pullmanFeelsLike"]
+- ["Ps8Hashable", "pullmanForecast"]
+- ["Ps8Hashable", "pullmanOutside"]
+- !private ["Ps8Hashable", "scheduledTimer"]
+- !private ["Ps8Hashable", "subscribe"]
+- !private ["Ps8Hashable", "subscription"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "timetoken"]
+- ["Ps8Hashable", "updateLabel"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", "weather"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "float"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "last"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Element"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "float"]
+- !private ["Ps13IndexableBase", "init"]
+- !private ["Ps13IndexableBase", "last"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["V10SwiftyJSON4JSON", "Index"]
+- !private ["V10SwiftyJSON4JSON", "IndexDistance"]
+- !private ["V10SwiftyJSON4JSON", "SubSequence"]
+- !private ["V10SwiftyJSON4JSON", "_Element"]
+- ["V10SwiftyJSON4JSON", "deinit"]
+- !private ["V10SwiftyJSON4JSON", "float"]
+- !private ["V10SwiftyJSON4JSON", "init"]
+- !private ["V10SwiftyJSON4JSON", "subscript"]
+- !private ["O10SwiftyJSON9JSONIndex", "deinit"]
+- !private ["P10SwiftyJSON17JSONSubscriptType", "deinit"]
+- ["P10SwiftyJSON17JSONSubscriptType", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "Element"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "last"]
+- !private ["Ps16MutableIndexable", "Element"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "last"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "JSON"]
+- ["PSo8NSCoding", "PNConfiguration"]
+- !private ["PSo8NSCoding", "PubNub"]
+- !private ["PSo8NSCoding", "String"]
+- !private ["PSo8NSCoding", "Timer"]
+- ["PSo8NSCoding", "WeatherData"]
+- ["PSo8NSCoding", "client"]
+- ["PSo8NSCoding", "configuration"]
+- ["PSo8NSCoding", "humidity"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "livingRoomTemp"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "pullmanFeelsLike"]
+- ["PSo8NSCoding", "pullmanForecast"]
+- ["PSo8NSCoding", "pullmanOutside"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "updateLabel"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", "weather"]
+- ["PSo8NSCoding", ""]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "JSON"]
+- ["PSo26NSExtensionRequestHandling", "PNConfiguration"]
+- !private ["PSo26NSExtensionRequestHandling", "PubNub"]
+- !private ["PSo26NSExtensionRequestHandling", "String"]
+- !private ["PSo26NSExtensionRequestHandling", "Timer"]
+- ["PSo26NSExtensionRequestHandling", "WeatherData"]
+- ["PSo26NSExtensionRequestHandling", "client"]
+- ["PSo26NSExtensionRequestHandling", "configuration"]
+- ["PSo26NSExtensionRequestHandling", "humidity"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "livingRoomTemp"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "pullmanFeelsLike"]
+- ["PSo26NSExtensionRequestHandling", "pullmanForecast"]
+- ["PSo26NSExtensionRequestHandling", "pullmanOutside"]
+- ["PSo26NSExtensionRequestHandling", "updateLabel"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", "weather"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSNumber", "deinit"]
+- !private ["CSo8NSObject", "JSON"]
+- ["CSo8NSObject", "PNConfiguration"]
+- ["CSo8NSObject", "PNMessageResult"]
+- ["CSo8NSObject", "PubNub"]
+- !private ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "Timer"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "WeatherData"]
+- !private ["CSo8NSObject", "add"]
+- !private ["CSo8NSObject", "channel"]
+- ["CSo8NSObject", "client"]
+- ["CSo8NSObject", "configuration"]
+- !private ["CSo8NSObject", "data"]
+- !private ["CSo8NSObject", "end"]
+- !private ["CSo8NSObject", "history"]
+- ["CSo8NSObject", "humidity"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "livingRoomTemp"]
+- !private ["CSo8NSObject", "message"]
+- !private ["CSo8NSObject", "messages"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "pullmanFeelsLike"]
+- ["CSo8NSObject", "pullmanForecast"]
+- ["CSo8NSObject", "pullmanOutside"]
+- !private ["CSo8NSObject", "scheduledTimer"]
+- !private ["CSo8NSObject", "subscribe"]
+- !private ["CSo8NSObject", "subscription"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "timetoken"]
+- ["CSo8NSObject", "updateLabel"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["CSo8NSObject", "weather"]
+- !private ["PSo16NSObjectProtocol", "JSON"]
+- ["PSo16NSObjectProtocol", "PNConfiguration"]
+- !private ["PSo16NSObjectProtocol", "PubNub"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "Timer"]
+- ["PSo16NSObjectProtocol", "WeatherData"]
+- !private ["PSo16NSObjectProtocol", "add"]
+- !private ["PSo16NSObjectProtocol", "channel"]
+- ["PSo16NSObjectProtocol", "client"]
+- ["PSo16NSObjectProtocol", "configuration"]
+- !private ["PSo16NSObjectProtocol", "data"]
+- !private ["PSo16NSObjectProtocol", "end"]
+- !private ["PSo16NSObjectProtocol", "history"]
+- ["PSo16NSObjectProtocol", "humidity"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "livingRoomTemp"]
+- !private ["PSo16NSObjectProtocol", "message"]
+- !private ["PSo16NSObjectProtocol", "messages"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "pullmanFeelsLike"]
+- ["PSo16NSObjectProtocol", "pullmanForecast"]
+- ["PSo16NSObjectProtocol", "pullmanOutside"]
+- !private ["PSo16NSObjectProtocol", "scheduledTimer"]
+- !private ["PSo16NSObjectProtocol", "subscribe"]
+- !private ["PSo16NSObjectProtocol", "subscription"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "timetoken"]
+- ["PSo16NSObjectProtocol", "updateLabel"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "weather"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- ["CSo15PNConfiguration", "deinit"]
+- ["CSo15PNConfiguration", "init"]
+- !private ["CSo13PNHistoryData", "deinit"]
+- !private ["CSo13PNHistoryData", "end"]
+- !private ["CSo13PNHistoryData", "messages"]
+- !private ["CSo15PNHistoryResult", "data"]
+- !private ["CSo15PNHistoryResult", "deinit"]
+- !private ["CSo13PNMessageData", "channel"]
+- ["CSo13PNMessageData", "deinit"]
+- !private ["CSo13PNMessageData", "message"]
+- !private ["CSo13PNMessageData", "subscription"]
+- !private ["CSo13PNMessageData", "timetoken"]
+- !private ["CSo15PNMessageResult", "data"]
+- ["CSo15PNMessageResult", "deinit"]
+- !private ["PSo21PNObjectEventListener", "JSON"]
+- ["PSo21PNObjectEventListener", "PNConfiguration"]
+- !private ["PSo21PNObjectEventListener", "PubNub"]
+- !private ["PSo21PNObjectEventListener", "String"]
+- !private ["PSo21PNObjectEventListener", "Timer"]
+- ["PSo21PNObjectEventListener", "WeatherData"]
+- ["PSo21PNObjectEventListener", "client"]
+- !private ["PSo21PNObjectEventListener", "configuration"]
+- !private ["PSo21PNObjectEventListener", "humidity"]
+- !private ["PSo21PNObjectEventListener", "livingRoomTemp"]
+- !private ["PSo21PNObjectEventListener", "print"]
+- !private ["PSo21PNObjectEventListener", "pullmanFeelsLike"]
+- !private ["PSo21PNObjectEventListener", "pullmanForecast"]
+- !private ["PSo21PNObjectEventListener", "pullmanOutside"]
+- !private ["PSo21PNObjectEventListener", "updateLabel"]
+- !private ["PSo21PNObjectEventListener", "weather"]
+- ["PSo21PNObjectEventListener", ""]
+- !private ["CSo8PNResult", "data"]
+- !private ["CSo13PNServiceData", "channel"]
+- !private ["CSo13PNServiceData", "end"]
+- !private ["CSo13PNServiceData", "message"]
+- !private ["CSo13PNServiceData", "messages"]
+- !private ["CSo13PNServiceData", "subscription"]
+- !private ["CSo13PNServiceData", "timetoken"]
+- !private ["CSo16PNSubscriberData", "channel"]
+- !private ["CSo16PNSubscriberData", "message"]
+- !private ["CSo16PNSubscriberData", "subscription"]
+- !private ["CSo16PNSubscriberData", "timetoken"]
+- !private ["CSo6PubNub", "add"]
+- !private ["CSo6PubNub", "client"]
+- ["CSo6PubNub", "deinit"]
+- !private ["CSo6PubNub", "history"]
+- !private ["CSo6PubNub", "subscribe"]
+- !private ["Ps22RandomAccessCollection", "Element"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "last"]
+- !private ["Ps21RandomAccessIndexable", "Element"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "last"]
+- !private ["Ps26RangeReplaceableCollection", "Element"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "last"]
+- !private ["Ps25RangeReplaceableIndexable", "Element"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "last"]
+- !private ["Ps16RawRepresentable", "Index"]
+- !private ["Ps16RawRepresentable", "IndexDistance"]
+- !private ["Ps16RawRepresentable", "SubSequence"]
+- !private ["Ps16RawRepresentable", "_Element"]
+- !private ["Ps16RawRepresentable", "float"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["Ps16RawRepresentable", "subscript"]
+- ["V10ObjectiveC8Selector", "deinit"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "float"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "last"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Vs5Slice", "float"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["CSo5Timer", "deinit"]
+- !private ["CSo5Timer", "scheduledTimer"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "JSON"]
+- ["PSo21UIAppearanceContainer", "PNConfiguration"]
+- !private ["PSo21UIAppearanceContainer", "PubNub"]
+- !private ["PSo21UIAppearanceContainer", "String"]
+- !private ["PSo21UIAppearanceContainer", "Timer"]
+- ["PSo21UIAppearanceContainer", "WeatherData"]
+- ["PSo21UIAppearanceContainer", "client"]
+- ["PSo21UIAppearanceContainer", "configuration"]
+- ["PSo21UIAppearanceContainer", "humidity"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "livingRoomTemp"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "pullmanFeelsLike"]
+- ["PSo21UIAppearanceContainer", "pullmanForecast"]
+- ["PSo21UIAppearanceContainer", "pullmanOutside"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "updateLabel"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", "weather"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "JSON"]
+- ["PSo18UIContentContainer", "PNConfiguration"]
+- !private ["PSo18UIContentContainer", "PubNub"]
+- !private ["PSo18UIContentContainer", "String"]
+- !private ["PSo18UIContentContainer", "Timer"]
+- ["PSo18UIContentContainer", "WeatherData"]
+- ["PSo18UIContentContainer", "client"]
+- ["PSo18UIContentContainer", "configuration"]
+- ["PSo18UIContentContainer", "humidity"]
+- !private ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "livingRoomTemp"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "pullmanFeelsLike"]
+- ["PSo18UIContentContainer", "pullmanForecast"]
+- ["PSo18UIContentContainer", "pullmanOutside"]
+- ["PSo18UIContentContainer", "updateLabel"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", "weather"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "JSON"]
+- ["PSo18UIFocusEnvironment", "PNConfiguration"]
+- !private ["PSo18UIFocusEnvironment", "PubNub"]
+- !private ["PSo18UIFocusEnvironment", "String"]
+- !private ["PSo18UIFocusEnvironment", "Timer"]
+- ["PSo18UIFocusEnvironment", "WeatherData"]
+- ["PSo18UIFocusEnvironment", "client"]
+- ["PSo18UIFocusEnvironment", "configuration"]
+- ["PSo18UIFocusEnvironment", "humidity"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "livingRoomTemp"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "pullmanFeelsLike"]
+- ["PSo18UIFocusEnvironment", "pullmanForecast"]
+- ["PSo18UIFocusEnvironment", "pullmanOutside"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "updateLabel"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", "weather"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["CSo7UILabel", "text"]
+- !private ["CSo11UIResponder", "JSON"]
+- ["CSo11UIResponder", "PNConfiguration"]
+- ["CSo11UIResponder", "PNMessageResult"]
+- ["CSo11UIResponder", "PubNub"]
+- !private ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "Timer"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "Void"]
+- ["CSo11UIResponder", "WeatherData"]
+- ["CSo11UIResponder", "client"]
+- ["CSo11UIResponder", "configuration"]
+- ["CSo11UIResponder", "humidity"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "livingRoomTemp"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "pullmanFeelsLike"]
+- ["CSo11UIResponder", "pullmanForecast"]
+- ["CSo11UIResponder", "pullmanOutside"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "updateLabel"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["CSo11UIResponder", "weather"]
+- !private ["PSo30UIResponderStandardEditActions", "JSON"]
+- ["PSo30UIResponderStandardEditActions", "PNConfiguration"]
+- !private ["PSo30UIResponderStandardEditActions", "PubNub"]
+- !private ["PSo30UIResponderStandardEditActions", "String"]
+- !private ["PSo30UIResponderStandardEditActions", "Timer"]
+- ["PSo30UIResponderStandardEditActions", "WeatherData"]
+- ["PSo30UIResponderStandardEditActions", "client"]
+- ["PSo30UIResponderStandardEditActions", "configuration"]
+- ["PSo30UIResponderStandardEditActions", "humidity"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "livingRoomTemp"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- ["PSo30UIResponderStandardEditActions", "pullmanFeelsLike"]
+- ["PSo30UIResponderStandardEditActions", "pullmanForecast"]
+- ["PSo30UIResponderStandardEditActions", "pullmanOutside"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- ["PSo30UIResponderStandardEditActions", "updateLabel"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", "weather"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "JSON"]
+- ["PSo16UIStateRestoring", "PNConfiguration"]
+- !private ["PSo16UIStateRestoring", "PubNub"]
+- !private ["PSo16UIStateRestoring", "String"]
+- !private ["PSo16UIStateRestoring", "Timer"]
+- ["PSo16UIStateRestoring", "WeatherData"]
+- ["PSo16UIStateRestoring", "client"]
+- ["PSo16UIStateRestoring", "configuration"]
+- ["PSo16UIStateRestoring", "humidity"]
+- !private ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "livingRoomTemp"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "pullmanFeelsLike"]
+- ["PSo16UIStateRestoring", "pullmanForecast"]
+- ["PSo16UIStateRestoring", "pullmanOutside"]
+- ["PSo16UIStateRestoring", "updateLabel"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "weather"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "JSON"]
+- ["PSo18UITraitEnvironment", "PNConfiguration"]
+- !private ["PSo18UITraitEnvironment", "PubNub"]
+- !private ["PSo18UITraitEnvironment", "String"]
+- !private ["PSo18UITraitEnvironment", "Timer"]
+- ["PSo18UITraitEnvironment", "WeatherData"]
+- ["PSo18UITraitEnvironment", "client"]
+- ["PSo18UITraitEnvironment", "configuration"]
+- ["PSo18UITraitEnvironment", "humidity"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "livingRoomTemp"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "pullmanFeelsLike"]
+- ["PSo18UITraitEnvironment", "pullmanForecast"]
+- ["PSo18UITraitEnvironment", "pullmanOutside"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "updateLabel"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", "weather"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "text"]
+- !private ["CSo16UIViewController", "JSON"]
+- ["CSo16UIViewController", "PNConfiguration"]
+- ["CSo16UIViewController", "PNMessageResult"]
+- ["CSo16UIViewController", "PubNub"]
+- !private ["CSo16UIViewController", "String"]
+- !private ["CSo16UIViewController", "Timer"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "Void"]
+- ["CSo16UIViewController", "WeatherData"]
+- ["CSo16UIViewController", "client"]
+- ["CSo16UIViewController", "configuration"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "humidity"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "livingRoomTemp"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "pullmanFeelsLike"]
+- ["CSo16UIViewController", "pullmanForecast"]
+- ["CSo16UIViewController", "pullmanOutside"]
+- ["CSo16UIViewController", "updateLabel"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", "weather"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- ["P9Alamofire14URLConvertible", "init"]
+- !private ["Sc", "deinit"]
+- !private ["C11HomeWeather14ViewController", "JSON"]
+- ["C11HomeWeather14ViewController", "PNConfiguration"]
+- ["C11HomeWeather14ViewController", "PNMessageResult"]
+- ["C11HomeWeather14ViewController", "PubNub"]
+- !private ["C11HomeWeather14ViewController", "String"]
+- !private ["C11HomeWeather14ViewController", "Timer"]
+- ["C11HomeWeather14ViewController", "UILabel"]
+- ["C11HomeWeather14ViewController", "Void"]
+- ["C11HomeWeather14ViewController", "WeatherData"]
+- ["C11HomeWeather14ViewController", "client"]
+- ["C11HomeWeather14ViewController", "configuration"]
+- ["C11HomeWeather14ViewController", "deinit"]
+- ["C11HomeWeather14ViewController", "humidity"]
+- ["C11HomeWeather14ViewController", "init"]
+- ["C11HomeWeather14ViewController", "livingRoomTemp"]
+- !private ["C11HomeWeather14ViewController", "print"]
+- ["C11HomeWeather14ViewController", "pullmanFeelsLike"]
+- ["C11HomeWeather14ViewController", "pullmanForecast"]
+- ["C11HomeWeather14ViewController", "pullmanOutside"]
+- ["C11HomeWeather14ViewController", "updateLabel"]
+- ["C11HomeWeather14ViewController", "viewDidLoad"]
+- ["C11HomeWeather14ViewController", "weather"]
+- ["C11HomeWeather11WeatherData", "deinit"]
+- !private ["C11HomeWeather11WeatherData", "downloadData"]
+- ["C11HomeWeather11WeatherData", "init"]
+- !private ["C11HomeWeather11WeatherData", "tempP"]
+- !private ["C11HomeWeather11WeatherData", "weatherP"]
+- !private ["C11HomeWeather11WeatherData", "weatherSummary"]
+- !private ["Ps14_ArrayProtocol", "Element"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "last"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "last"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "JSON"]
+- ["Ps9_Hashable", "PNConfiguration"]
+- !private ["Ps9_Hashable", "PubNub"]
+- !private ["Ps9_Hashable", "String"]
+- !private ["Ps9_Hashable", "Timer"]
+- ["Ps9_Hashable", "WeatherData"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "add"]
+- !private ["Ps9_Hashable", "channel"]
+- ["Ps9_Hashable", "client"]
+- ["Ps9_Hashable", "configuration"]
+- !private ["Ps9_Hashable", "data"]
+- !private ["Ps9_Hashable", "end"]
+- !private ["Ps9_Hashable", "history"]
+- ["Ps9_Hashable", "humidity"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "livingRoomTemp"]
+- !private ["Ps9_Hashable", "message"]
+- !private ["Ps9_Hashable", "messages"]
+- !private ["Ps9_Hashable", "print"]
+- ["Ps9_Hashable", "pullmanFeelsLike"]
+- ["Ps9_Hashable", "pullmanForecast"]
+- ["Ps9_Hashable", "pullmanOutside"]
+- !private ["Ps9_Hashable", "scheduledTimer"]
+- !private ["Ps9_Hashable", "subscribe"]
+- !private ["Ps9_Hashable", "subscription"]
+- !private ["Ps9_Hashable", "text"]
+- !private ["Ps9_Hashable", "timetoken"]
+- ["Ps9_Hashable", "updateLabel"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", "weather"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "last"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Sd"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Sf"
+- "Ps8Hashable"
+- "SQ"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps16IteratorProtocol"
+- "V10SwiftyJSON4JSON"
+- !private "O10SwiftyJSON9JSONIndex"
+- "P10SwiftyJSON17JSONSubscriptType"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- "PSo16NSMutableCopying"
+- "CSo8NSNumber"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Sq"
+- "CSo15PNConfiguration"
+- !private "CSo13PNHistoryData"
+- !private "CSo15PNHistoryResult"
+- "CSo13PNMessageData"
+- "CSo15PNMessageResult"
+- "PSo21PNObjectEventListener"
+- !private "CSo8PNResult"
+- !private "CSo13PNServiceData"
+- !private "CSo16PNSubscriberData"
+- "CSo6PubNub"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps16RawRepresentable"
+- "V10ObjectiveC8Selector"
+- !private "Ps8Sequence"
+- !private "Vs5Slice"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "CSo5Timer"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- "P9Alamofire14URLConvertible"
+- !private "Sc"
+- "C11HomeWeather14ViewController"
+- "C11HomeWeather11WeatherData"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/HomeWeather/HomeWeather-Bridging-Header.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PubNub.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PNObjectEventListener.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PNErrorCodes.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/NSURLSessionConfiguration+PNConfiguration.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PNTimeResult.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PNSubscribeStatus.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PNSubscriberResults.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PNPublishStatus.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PNPresenceWhereNowResult.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PNPresenceChannelHereNowResult.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PNPresenceGlobalHereNowResult.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PNPresenceChannelGroupHereNowResult.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PNHistoryResult.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PNClientStateUpdateStatus.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PNChannelGroupsResult.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PNChannelGroupClientStateResult.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PNChannelGroupChannelsResult.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PNChannelClientStateResult.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PNAPNSEnabledChannelsResult.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PNServiceData.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PNResult.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PNStatus.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PNErrorStatus.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PNAcknowledgmentStatus.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PNConfiguration.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PNClientInformation.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PNAES.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PubNub+Time.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PubNub+Subscribe.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PubNub+State.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PubNub+Publish.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PubNub+Presence.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PubNub+History.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PubNub+ChannelGroup.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PNLLogger.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PNStructures.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PubNub+Core.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PubNub+APNS.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Headers/PubNub-umbrella.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/PubNub/PubNub.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm.swiftmodule"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm.swiftmodule"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/sayonsomchanda/Documents/Apps/HomeWeather/DerivedData/HomeWeather/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+interface-hash: "e753c9e3ea1e04a47207aa0823a8cfa3"

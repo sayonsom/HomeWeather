@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "ad1b072cb738a481f5b67bfe1c43cf2c"
+build_time: [539124139, 110769000]
+inputs:
+  "/Users/sayonsomchanda/Documents/Apps/HomeWeather/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [537860214, 0]

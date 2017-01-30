@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "825e9731c2ff86beec0c8c72c14a4d9f"
+build_time: [539124142, 397327000]
+inputs:
+  "/Users/sayonsomchanda/Documents/Apps/HomeWeather/HomeWeather/ViewController.swift": [537921945, 0]
+  "/Users/sayonsomchanda/Documents/Apps/HomeWeather/HomeWeather/WeatherData.swift": [537910892, 0]
+  "/Users/sayonsomchanda/Documents/Apps/HomeWeather/HomeWeather/AppDelegate.swift": [537915980, 0]

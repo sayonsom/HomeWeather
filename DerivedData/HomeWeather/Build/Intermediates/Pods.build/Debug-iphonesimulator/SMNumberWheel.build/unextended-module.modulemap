@@ -1,0 +1,10 @@
+framework module SMNumberWheel {
+  umbrella header "SMNumberWheel-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SMNumberWheel.__Swift {
+    exclude header "SMNumberWheel-Swift.h"
+}

@@ -1,0 +1,23 @@
+PODS:
+  - Alamofire (4.0.0)
+  - PubNub (4.5.2):
+    - PubNub/Core (= 4.5.2)
+  - PubNub/Core (4.5.2)
+  - SMNumberWheel (1.0.0)
+  - SwiftyJSON (3.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - PubNub (~> 4)
+  - SMNumberWheel
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: fef59f00388f267e52d9b432aa5d93dc97190f14
+  PubNub: 1b6da1bb6a971214ab9fb42e40aed23f77438d26
+  SMNumberWheel: cfe159f760e960248e18a5195eb3735dc16c10a8
+  SwiftyJSON: f57b2b44bc166617372d1c70773591fe9f0f5fd4
+
+PODFILE CHECKSUM: 89ca5d41e20b2ffb5cde2ec53bf04b9ad96b32ff
+
+COCOAPODS: 1.2.0.rc.1
